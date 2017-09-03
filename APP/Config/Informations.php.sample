@@ -1,0 +1,20 @@
+<?php
+    #Information de connexion a la BDD
+    $devmode	= true;
+
+    if($devmode == true){
+        $dbhost     = "163.172.222.193";
+        $dbname 	= "eatzem_test";
+        $dblogin 	= "eatzem_test";
+        $dbpass 	= "killerjr";
+    }else{
+        $dbhost		= "163.172.222.193";
+        $dbname 	= "eatzem";
+        $dblogin 	= "eatzem";
+        $dbpass 	= "killerjr";
+    }
+
+    # Informations Paypal
+    $ppname     = "noxyra_api1.gmail.com";
+    $pppass     = "UESZY9F4ARDGJ25U";
+    $ppsign     = "AFcWxV21C7fd0v3bYYYRCpSSRl31A0X9izyXl66ssVIDSiBAMxl1BIdd";

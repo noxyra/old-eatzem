@@ -1,0 +1,8 @@
+/.idea/*
+/APP/Logs/*
+/APP/Config/Informations.php
+/Upload/Images/*
+.htaccess
+/.idea/Eatzem.iml
+/.idea/modules.xml
+/.idea/dataSources.ids

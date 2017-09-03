@@ -1,0 +1,115 @@
+/** PRODUITS **/
+.container-spe-prod{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.panel-spe-prod{
+    width: calc(100% - 10px) !important;
+    /*min-width: 300px;*/
+    /*max-width: 360px;*/
+    margin: 5px !important;
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0.5);*/
+    transition: box-shadow 0.3s;
+
+    border: 1px solid lightgray;
+    /*padding: 10px;*/
+}
+
+/*.panel-spe-prod:hover{*/
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0);*/
+/*}*/
+
+.panel-heading-spe-prod{
+    width: 100%;
+    /*color: white;*/
+    /*background-color: #830e1d;*/
+    padding: 10px;
+    margin: 0px;
+    font-size: 16px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.panel-spe-prod > .spe-image{
+    padding: 0px;
+    margin: 0px;
+    /*display: flex;*/
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.panel-spe-prod > p > img{
+    width: auto;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    max-height:170px;
+}
+
+.panel-body-spe-type{
+    font-size: 11px;
+    padding: 5px;
+    font-style: italic;
+}
+
+.spe-label-produit{
+    position: relative;
+    top: 10px;
+    left:10px;
+}
+
+.spe-price{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.special-prix{
+    width: 100%;
+    height: 45px;
+    margin: 0px;
+    /*color: white;*/
+    font-weight: bold;
+    /*border-radius: 0px 0px 3px 3px;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /*border: 1px solid white;*/
+
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.special-prix > span:first-child{
+    font-size: 18px;
+}
+.special-prix > span:last-child{
+    font-size: 11px;
+}
+
+.prix-warning{
+    /*background-color: #f3c68a;*/
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.2) inset;
+}
+
+.prix-success{
+    /*background-color: #93ce92;*/
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.2) inset;
+}
+
+.prix-multi{
+    /*background-color: #7eadff;*/
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.2) inset;
+}
+/** END PRODUIT **/
